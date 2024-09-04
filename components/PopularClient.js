@@ -10,7 +10,6 @@ const PopularClient = () => {
   const allPokemons = usePokemons();
   const [visibleCount, setVisibleCount] = useState(12);
 
-
   return (
     <>
       <Popular pokemons={allPokemons.slice(0, visibleCount)} setVisibleCount={setVisibleCount} />
