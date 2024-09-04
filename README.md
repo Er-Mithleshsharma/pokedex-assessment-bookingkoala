@@ -1,4 +1,28 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokedex App
+
+A modern Pokedex application built with Next.js, Tailwind CSS, and the PokeAPI. This application showcases Pokémon data with advanced features such as pagination, categorized lists, and detailed Pokémon views.
+
+## Features
+
+- **Paginated Listings**: Pokémon listings are paginated to handle large datasets efficiently.
+- **Categorized Lists**: Browse Pokémon by habitat, species, and type.
+- **Detail Pages**: Each Pokémon has a detail page displaying similar Pokémon.
+- **Reusable Components**: All components are designed to be reusable across the application.
+- **Abilities**: Abilities are displayed.
+
+## Tech Stack
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **PokeAPI**: Public API for accessing Pokémon data.
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/Er-Mithleshsharma/pokedex-assessment-bookingkoala.git
 
 ## Getting Started
 
