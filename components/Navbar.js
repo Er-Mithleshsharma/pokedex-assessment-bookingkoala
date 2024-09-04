@@ -4,7 +4,7 @@ import pokeballImg from '../public/pokeball.webp'; // Adjust the path as needed
 
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-r from-red-700 to-red-900 h-[10vh] shadow-lg pl-4 pr-4">
+    <nav className="bg-gradient-to-r from-blue-500 to-purple-500 h-[10vh] shadow-lg pl-4 pr-4">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-white text-3xl font-extrabold tracking-wider drop-shadow-lg" style={{ fontFamily: "'Bebas Neue', cursive" }}>
           POKEDEX APP

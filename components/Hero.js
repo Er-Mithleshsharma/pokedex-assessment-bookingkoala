@@ -16,7 +16,7 @@ const Hero = () => {
           Welcome to Pokedex ~ By Mithlesh
         </h1>
         <Link href="#popular">
-          <span className="bg-red-600 text-white py-2 px-6 rounded-full shadow-lg hover:bg-red-700 transition-colors cursor-pointer scroll-smooth">
+          <span className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-2 px-6 rounded-full shadow-lg  transition-colors cursor-pointer scroll-smooth">
             Explore Popular Pokemons
           </span>
         </Link>

@@ -36,7 +36,7 @@ const Popular = ({ pokemons ,setVisibleCount}) => {
   return (
     <section
       id="popular"
-      className="py-20 h-auto bg-gradient-to-b from-red-800 to-black text-white scroll-smooth"
+      className="py-20 h-auto bg-gradient-to-r from-blue-500 to-purple-500k text-white scroll-smooth"
     >
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">Popular Pokémon</h2>

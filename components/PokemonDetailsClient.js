@@ -53,8 +53,8 @@ const PokemonDetailsClient = ({ pokemon, species, habitat, similarPokemon }) => 
 
         {/* Habitat, Species, and Type Information */}
         <h4 className="text-xl font-semibold text-gray-700 text-center mb-4">Details</h4>
-        <div className="overflow-x-auto mb-6">
-  <table className="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
+        <div className="overflow-x-auto mb-6 flex justify-center">
+  <table className="width-[500px] bg-white border border-gray-300 rounded-lg shadow-md ">
     <tbody>
       <tr className="border-b">
         <td className="px-6 py-4 text-right text-lg font-medium text-gray-700">Habitat:</td>
