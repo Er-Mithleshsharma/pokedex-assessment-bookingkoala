@@ -1,18 +1,30 @@
-// components/LoadMoreButton.js
 "use client";
 
-import React, { useState } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 
-const LoadMoreButton = ({ onLoadMore }) => {
+const LoadMoreButton = ({ offset }) => {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const handleLoadMore = () => {
+    const currentOffset = parseInt(offset || '0', 10);
+    const newOffset = currentOffset + 20;
+
+    // Clone the current search parameters and update the 'offset'
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('offset', newOffset.toString());
+
+    // Push the new URL with updated search parameters (offset)
+    router.push(`/?offset=${newOffset}`);
+  };
+
   return (
-    <div className="mt-8">
-      <button
-        onClick={onLoadMore}
-        className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-purple-500 transition"
-      >
-        Load More
-      </button>
-    </div>
+    <button
+      onClick={handleLoadMore}
+      className="bg-white text-black py-2 px-4 rounded hover:bg-gray-200"
+    >
+      Load More
+    </button>
   );
 };
 

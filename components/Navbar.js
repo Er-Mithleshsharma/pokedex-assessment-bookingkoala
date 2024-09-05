@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import pokeballImg from '../public/pokeball.webp'; // Adjust the path as needed
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -9,6 +10,7 @@ const Navbar = () => {
         <h1 className="text-white text-3xl font-extrabold tracking-wider drop-shadow-lg" style={{ fontFamily: "'Bebas Neue', cursive" }}>
           POKEDEX APP
         </h1>
+    
         <div className="pt-1">
           <Image 
             src={pokeballImg} 
@@ -18,6 +20,7 @@ const Navbar = () => {
             className="drop-shadow-lg"
           />
         </div>
+
       </div>
     </nav>
   );
